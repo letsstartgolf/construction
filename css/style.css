@@ -1,5 +1,27 @@
-body {
+html {
   font-family: arial,sans-serif;
+}
+
+html {
+  font-size: 1.2rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.7rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.9rem;
+  }
 }
 
 h2.titlep1 {
